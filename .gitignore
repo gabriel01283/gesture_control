@@ -1,0 +1,38 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Modelos de IA
+models/
+*.task
+*.tflite
+*.onnx
+
+# Dados sensíveis
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.toml
+
+# Arquivos locais
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# IDE
+.idea/
+.vscode/

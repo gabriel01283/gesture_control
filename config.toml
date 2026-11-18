@@ -1,0 +1,9 @@
+[gesture_control]
+# 0 = webcam local; para tablet, use uma URL de streaming compatível com OpenCV
+source = "0"
+model = "models/hand_landmarker.task"
+open_command = "kitty"
+move_scale = 1200.0
+dwell_seconds = 1.2
+cooldown_seconds = 2.0
+mirror = true
